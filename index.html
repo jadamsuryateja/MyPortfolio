@@ -332,6 +332,26 @@
     enterBtn.addEventListener('mouseleave', () => {
       cursor.classList.remove('hover');
     });
+     // 🔒 Disable right-click
+  document.addEventListener("contextmenu", e => e.preventDefault());
+
+  // 🔒 Block copy/cut/paste/select/inspect
+  document.addEventListener("keydown", function (e) {
+    if (
+      e.key === "F12" ||
+      (e.ctrlKey && e.shiftKey && ["I", "J", "C"].includes(e.key.toUpperCase())) ||
+      (e.ctrlKey && ["U", "S", "C", "X", "V"].includes(e.key.toUpperCase()))
+    ) {
+      e.preventDefault();
+      return false;
+    }
+  });
+
+  // 🔒 Disable text select, copy/cut/paste
+  document.addEventListener("copy", e => e.preventDefault());
+  document.addEventListener("cut", e => e.preventDefault());
+  document.addEventListener("paste", e => e.preventDefault());
+  document.addEventListener("selectstart", e => e.preventDefault());
   </script>
 </body>
 </html>
