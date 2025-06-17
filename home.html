@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-inner"></div>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" loading="lazy" ... alt="SURYA TEJA" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="SURYA TEJA">SURYA TEJA</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="jadamsuryateja@gmail.com" class="contact-link">jadamsuryateja@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917995205435" class="contact-link">+917995205435</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 12, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Nuzvid,Andhra Pradesh,India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+       <li class="social-item">
+    <a href="https://github.com/jadamsuryateja" target="_blank" class="social-link">
+      <ion-icon name="logo-github"></ion-icon>
+    </a>
+  </li>
+
+<li class="social-item">
+  <a href="https://www.linkedin.com/in/jadamsurya/" target="_blank" class="social-link">
+    <ion-icon name="logo-linkedin"></ion-icon>
+  </a>
+</li>
+
+
+ <li class="social-item">
+    <a href="https://www.instagram.com/_s_u_r_y_a_.j_/" target="_blank" class="social-link">
+      <ion-icon name="logo-instagram"></ion-icon>
+    </a>
+  </li>
+
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>My Projects</button>
+          </li>
+
+         <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Services</button> <!-- Changed from Blog to Services -->
+    </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+        <p>
+            I'm Jadam Surya Teja, a final-year Computer Science and Engineering student with a passion for Full Stack Development. I specialize in building scalable and user-friendly applications using modern technologies.
+        </p>
+
+        <p>
+            My goal is to contribute to dynamic web development projects, enhance my skills in API integration, and grow within an innovative team environment. I enjoy crafting visually appealing frontend pages.
+        </p>
+    </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Frontend Development</h4>
+                    <p class="service-item-text">
+                        Building responsive and interactive user interfaces using HTML, CSS, JavaScript, React.js, and Angular.
+                    </p>
+                </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" loading="lazy" ... alt="Web development icon" width="40">
+              </div>
+
+            <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Backend Development</h4>
+                    <p class="service-item-text">
+                        Developing robust server-side applications with Python, Node.js, Express.js  and Flask.
+                    </p>
+                </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg"  loading="lazy" ... alt="mobile app icon" width="40">
+              </div>
+
+               <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Database Management</h4>
+                    <p class="service-item-text">
+                        Designing and managing databases using MySQL, MongoDB, and AWS for scalable applications.
+                    </p>
+                </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" loading="lazy" ... alt="camera icon" width="40">
+              </div>
+
+               <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Full Stack Web Development</h4>
+                    <p class="service-item-text">
+                        Creating end-to-end web applications with seamless integration of frontend, backend, and databases.
+                    </p>
+                </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Achievements</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+               <figure class="testimonials-avatar-box">
+                        <img src="./assets/images/feedback.svg" loading="lazy" ... alt="quote icon" width="60" data-testimonials-avatar>
+                    </figure>
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>Feedback Management System</h4>
+                    <div class="testimonials-text" data-testimonials-text>
+                        <p>
+                            Received an appreciation letter from Narasaraopet Engineering College for developing a system that enhanced communication and streamlined feedback collection.
+                        </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+               <figure class="testimonials-avatar-box">
+                        <img src="./assets/images/late-att.svg" loading="lazy" ... alt="Late Attendance icon" width="60" data-testimonials-avatar>
+                    </figure>
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>Late Attendance <br>System</h4>
+                    <div class="testimonials-text" data-testimonials-text>
+                        <p>
+                            Developed LATE-ATT, a web-based system to track and manage late arrivals with WhatsApp integration for report sharing, showcasing frontend development and practical problem-solving skills.
+                        </p>
+                </div>
+
+              </div>
+            </li>
+
+        
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" loading="lazy" ...  alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" loading="lazy" ... alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>SURYA TEJA</h4>
+
+              <div data-modal-text>
+                <p>
+                  I'm Jadam Surya Teja, a final-year Computer Science and Engineering student with a passion for Full Stack Development. 
+                    I specialize in building scalable and user-friendly applications using modern technologies.
+
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Certifications</h3>
+
+          <ul class="clients-list has-scrollbar">
+<li class="clients-item">
+                    <img src="./assets/images/python.svg" loading="lazy" ... alt="Python Certification" width="50"height="190">
+                    <p>Python – HackerRank</p>
+            </li>
+            <li class="clients-item">
+                    <img src="./assets/images/mean-logo.png" loading="lazy" ... alt="MEAN Certification" width="100" height="190">
+                    <p>MEAN Stack – Infosys Springboard</p>
+            </li>
+            <li class="clients-item">
+                    <img src="./assets/images/mern-logo.svg" loading="lazy" ... alt="MERN Certification" width="50"height="190">
+                    <p>MERN Stack – HackerRank</p>
+            </li>
+            <li class="clients-item">
+                    <img src="./assets/images/aws-logo.png" loading="lazy" ... alt="AWS Certification" width="50"height="190">
+                    <p>AWS – APSSDC</p>
+            </li>
+            <li class="clients-item">
+                    <img src="./assets/images/html-logo.png" loading="lazy" ... alt="Web Certification" width="250"height="190">
+                    <p>HTML/CSS/JS – Infosys Springboard</p>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+         
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+     <article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Education</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">B.Tech in Computer Science and Engineering</h4>
+        <span>2022 — 2026</span>
+        <p class="timeline-text">Narasaraopeta Engineering College, Narasaraopet</p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Intermediate (MPC)</h4>
+        <span>2020 — 2022</span>
+        <p class="timeline-text">Sri Chaitanya Junior College, Kakinada</p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">SSC</h4>
+        <span>2018 — 2019</span>
+        <p class="timeline-text">Thrividha English Medium School, Nuzvid</p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="briefcase-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Experience</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Python Full Stack Virtual Internship</h4>
+        <span>Completed</span>
+        <p class="timeline-text">Completed Python Full Stack Virtual Internship from SkillDzire, gaining practical experience in web development.</p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="folder-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Projects</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Feedback Management System</h4>
+        <p class="timeline-text">
+          Built a full-stack Feedback Management System using ReactJS, NodeJS, ExpressJS, and MySQL to improve feedback collection processes. Earned an appreciation letter from the college management.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">LATE-ATT (Late Attendance Management System)</h4>
+        <p class="timeline-text">
+          Created an attendance tracking system using HTML, CSS, and JavaScript, with WhatsApp integration for report sharing.
+        </p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <section class="skill">
+
+    <h3 class="h3 skills-title">Technical Skills</h3>
+
+    <ul class="skills-list content-card">
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Frontend</h5>
+        </div>
+        <p class="timeline-text">HTML, CSS, JavaScript, Bootstrap, React.js, Angular</p>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Backend</h5>
+        </div>
+        <p class="timeline-text">Python, Node.js, Express.js, Flask, Django</p>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Database</h5>
+        </div>
+        <p class="timeline-text">MySQL, MongoDB, AWS</p>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Tools & Platforms</h5>
+        </div>
+        <p class="timeline-text">VS Code, Git, GitHub, ChatGPT, Deepseek</p>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Other Skills</h5>
+        </div>
+        <p class="timeline-text">Prompt Engineering, Data Structures and Algorithms</p>
+      </li>
+
+    </ul>
+
+  </section>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="ribbon-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Achievements</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <p class="timeline-text">
+          Received an appreciation letter from Narasaraopeta Engineering College for developing a Feedback Management System.
+        </p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="document-text-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Certifications</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item"><p class="timeline-text">Python – Hackerrank</p></li>
+      <li class="timeline-item"><p class="timeline-text">MEAN – Infosys Springboard</p></li>
+      <li class="timeline-item"><p class="timeline-text">MERN – Hackerrank</p></li>
+      <li class="timeline-item"><p class="timeline-text">AWS – APSSDC</p></li>
+      <li class="timeline-item"><p class="timeline-text">HTML, CSS, JavaScript – Infosys Springboard</p></li>
+
+    </ol>
+
+  </section>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="chatbubbles-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Languages</h3>
+    </div>
+
+    <ol class="timeline-list">
+      <li class="timeline-item"><p class="timeline-text">English</p></li>
+      <li class="timeline-item"><p class="timeline-text">Telugu</p></li>
+    </ol>
+
+  </section>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="person-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Contact</h3>
+    </div>
+
+    <ol class="timeline-list">
+      <li class="timeline-item"><p class="timeline-text">Phone: 7995205435</p></li>
+      <li class="timeline-item"><p class="timeline-text">Email: jadamsuryateja123456@gmail.com</p></li>
+      <li class="timeline-item"><p class="timeline-text">GitHub: <a href="https://github.com/jadamsuryateja" target="_blank">github.com/jadamsuryateja</a></p></li>
+      <li class="timeline-item"><p class="timeline-text">LinkedIn: <a href="https://www.linkedin.com/in/jadamsurya/" target="_blank">www.linkedin.com/in/jadamsurya</a></p></li>
+    </ol>
+
+  </section>
+
+</article>
+
+
+
+
+
+      <!--
+        - #MYPROJECTS
+      -->
+
+    <article class="portfolio" data-page="portfolio">
+  <header>
+    <h2 class="h2 article-title">My Projects</h2>
+  </header>
+
+  <section class="projects">
+    <ul class="filter-list">
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Web Applications</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn>Deep Learning</button>
+      </li>
+    </ul>
+
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+      <ul class="select-list">
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+        <li class="select-item">
+          <button data-select-item>Web Applications</button>
+        </li>
+        <li class="select-item">
+          <button data-select-item>Deep Learning</button>
+        </li>
+      </ul>
+    </div>
+
+    <ul class="project-list">
+      <!-- Image Captioning with Deep Learning -->
+      <li class="project-item active" data-filter-item data-category="deep learning">
+        <a href="https://jadamsuryateja.github.io/DEEPLERNING/index.html" target="_blank" class="project-link">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/deeplearning-preview.jpg" alt="Image Captioning with Deep Learning" loading="lazy">
+          </figure>
+          <div class="project-info">
+            <h3 class="project-title">Image Captioning</h3>
+            <p class="project-category">Deep Learning & Flask</p>
+            <p class="project-description">
+              A deep learning model that automatically generates descriptive captions for uploaded images using CNN and LSTM architectures.
+            </p>
+          
+            <div class="project-tags">
+              <span class="project-tag">CNN</span>
+              <span class="project-tag">LSTM</span>
+              <span class="project-tag">NLP</span>
+            </div>
+          </div>
+        </a>
+      </li>
+
+      <!-- Late Attendance System -->
+      <li class="project-item active" data-filter-item data-category="web applications">
+        <a href="https://jadamsuryateja.github.io/LATE-ATT/index.html" target="_blank" class="project-link">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/lateatt-preview.jpg" alt="Late Attendance System" loading="lazy">
+          </figure>
+          <div class="project-info">
+            <h3 class="project-title">LATE-ATT System</h3>
+            <p class="project-category">Web Application</p>
+            <p class="project-description">
+              Web-based attendance tracking system with WhatsApp integration for automatic report generation and notifications.
+            </p>
+        
+            <div class="project-tags">
+              <span class="project-tag">Attendance</span>
+              <span class="project-tag">WhatsApp</span>
+              <span class="project-tag">Reports</span>
+            </div>
+          </div>
+        </a>
+      </li>
+
+      <!-- Feedback Management System -->
+      <li class="project-item active" data-filter-item data-category="web applications">
+        <a href="https://collegefeeddback.netlify.app/" target="_blank" class="project-link">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/feedback-preview.jpg" alt="Feedback Management System" loading="lazy">
+          </figure>
+          <div class="project-info">
+            <h3 class="project-title">Feedback System</h3>
+            <p class="project-category">Full Stack Web App</p>
+            <p class="project-description">
+              Complete feedback collection and management system with analytics dashboard and admin interface.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">MERN Stack</span>
+              <span class="project-tag">Admin Panel</span>
+              <span class="project-tag">CRUD</span>
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </section>
+</article>
+      <!--
+        - #BLOG
+      -->
+
+  <article class="services" data-page="services">
+  <header>
+    <h2 class="h2 article-title">My Services</h2>
+  </header>
+
+  <section class="services-container">
+    <div class="services-grid">
+      <!-- Mobile Development -->
+      <div class="service-card">
+        <div class="service-card-header">
+          <div class="service-icon-box">
+            <ion-icon name="phone-portrait-outline"></ion-icon>
+            <ion-icon name="logo-react"></ion-icon>
+          </div>
+          <h3 class="service-card-title">Mobile App Development</h3>
+        </div>
+        <div class="service-card-body">
+          <p class="service-card-text">
+            Build cross-platform Android/iOS apps using React Native with modern UI components and native features.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">Android studio</span>
+            <span class="tech-tag">React Native</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MEAN Stack -->
+      <div class="service-card">
+        <div class="service-card-header">
+          <div class="service-icon-box">
+            <ion-icon name="logo-angular"></ion-icon>
+            <ion-icon name="logo-nodejs"></ion-icon>
+          </div>
+          <h3 class="service-card-title">MEAN Stack Development</h3>
+        </div>
+        <div class="service-card-body">
+          <p class="service-card-text">
+            Full-stack applications with MongoDB, Express.js, Angular, and Node.js for scalable web solutions.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">MongoDB</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MERN Stack -->
+      <div class="service-card">
+        <div class="service-card-header">
+          <div class="service-icon-box">
+            <ion-icon name="logo-react"></ion-icon>
+            <ion-icon name="logo-nodejs"></ion-icon>
+          </div>
+          <h3 class="service-card-title">MERN Stack Expertise</h3>
+        </div>
+        <div class="service-card-body">
+          <p class="service-card-text">
+            Build dynamic web apps with MongoDB, Express, React, and Node.js with modern state management.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">React.js</span>
+            <span class="tech-tag">Express.js</span>
+            <span class="tech-tag">Node.js</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend Development -->
+      <div class="service-card">
+        <div class="service-card-header">
+          <div class="service-icon-box">
+            <ion-icon name="server-outline"></ion-icon>
+            <ion-icon name="logo-python"></ion-icon>
+          </div>
+          <h3 class="service-card-title">Backend Solutions</h3>
+        </div>
+        <div class="service-card-body">
+          <p class="service-card-text">
+            Robust backend development with Node.js, Flask, and database integration for RESTful APIs.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Flask</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Database Management -->
+      <div class="service-card">
+        <div class="service-card-header">
+          <div class="service-icon-box">
+            <ion-icon name="layers-outline"></ion-icon>
+            <ion-icon name="code-slash-outline"></ion-icon>
+          </div>
+          <h3 class="service-card-title">Database Systems</h3>
+        </div>
+        <div class="service-card-body">
+          <p class="service-card-text">
+            Design and manage both SQL (MySQL) and NoSQL (MongoDB) databases with efficient queries.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">MongoDB</span>
+            <span class="tech-tag">phpMyAdmin</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full Stack -->
+      <div class="service-card">
+        <div class="service-card-header">
+          <div class="service-icon-box">
+            <ion-icon name="code-outline"></ion-icon>
+            <ion-icon name="logo-javascript"></ion-icon>
+          </div>
+          <h3 class="service-card-title">Full Stack Capabilities</h3>
+        </div>
+        <div class="service-card-body">
+          <p class="service-card-text">
+            End-to-end development from UI design to database architecture and deployment.
+          </p>
+          <div class="tech-tags">
+            <span class="tech-tag">Frontend</span>
+            <span class="tech-tag">Backend</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3831.402586698294!2d80.05319487460258!3d16.1997299359321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a8729805efff9%3A0x3c49f6f7829f8426!2sNarasaraopeta%20Engineering%20College%20(Autonomous)!5e0!3m2!1sen!2sin!4v1750170860996!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          
+          </figure>
+        </section>
+
+       <section class="contact-form">
+
+  <h3 class="h3 form-title">Contact Form</h3>
+
+  <form action="https://formspree.io/f/mvgrqgyk" method="POST" class="form" data-form>
+
+    <div class="input-wrapper">
+      <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+      <input type="email" name="email" class="form-input" placeholder="Email address" required>
+    </div>
+
+    <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+
+    <button class="form-btn" type="submit">
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
+
+  </form>
+
+</section>
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
